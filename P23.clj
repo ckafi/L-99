@@ -6,7 +6,7 @@
          n n
          res []]
     (if (zero? n)
-      coll
+      res
       (let [sel (rand-int (count coll))]
         (recur (remove-at coll (inc sel))
                (dec n)
