@@ -1,7 +1,5 @@
 ; Extract a given number of randomly selected elements from a list
-(defn remove-at [coll n]
-  (concat (take (dec n) coll) (drop n coll)))
-
+(load-file "P20.clj")
 (defn rnd-select [coll n]
   (loop [coll coll
          n n

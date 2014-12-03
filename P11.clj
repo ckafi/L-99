@@ -1,7 +1,4 @@
 ; Modified run-length encoding
-(defn encode [coll]
-  (map #(list (count %) (first %))
-       (partition-by identity coll)))
-
+(load-file "P10.clj")
 (defn encode-modified [coll]
   (map #(if (= 1 (first %)) (last %) %) (encode coll)))
