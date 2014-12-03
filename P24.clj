@@ -1,3 +1,4 @@
+; Lotto: Draw N different random numbers from the set 1..M
 (defn remove-at [coll n]
   (concat (take (dec n) coll) (drop n coll)))
 

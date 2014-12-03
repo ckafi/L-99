@@ -1,3 +1,4 @@
+; Generate a random permutation of the elements of a list
 (defn remove-at [coll n]
   (concat (take (dec n) coll) (drop n coll)))
 

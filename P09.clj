@@ -1,3 +1,4 @@
+; Pack consecutive duplicates of list elements into sublists
 (defn pack [coll]
   (reverse
     (reduce #(if (= %2 (first (first %1)))
