@@ -59,7 +59,7 @@ Logic and Codes
 Binary Trees
 ============
 | ☑ P54A (*) Check whether a given term represents a binary tree
-| ☐ P55 (**) Construct completely balanced binary trees
+| ☑ P55 (**) Construct completely balanced binary trees
 | ☐ P56 (**) Symmetric binary trees
 | ☐ P57 (**) Binary search trees (dictionaries)
 | ☐ P58 (**) Generate-and-test paradigm
